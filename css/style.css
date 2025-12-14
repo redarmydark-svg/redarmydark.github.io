@@ -1,0 +1,150 @@
+/* ====================================
+   GLOBAL STYLE & FIXED NAVBAR ADJUSTMENT
+   ==================================== */
+body {
+    padding-top: 70px; /* Tambah padding agar konten tidak tertutup fixed navbar */
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    color: #333;
+}
+
+/* Penyesuaian agar section terlihat rapi */
+section {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+h2 {
+    font-weight: 700;
+    margin-bottom: 30px;
+    color: #1f3a5f; /* Warna biru gelap (Navy Blue) */
+}
+
+hr {
+    border-top: 3px solid #ffaa00; /* Warna oranye/emas untuk garis pemisah */
+    width: 80px;
+}
+
+/* ====================================
+   NAVBAR & MENU ANIMASI
+   ==================================== */
+.navbar-inverse {
+    background-color: #1f3a5f; /* Latar belakang Navy Blue */
+    border-color: #0c1a2c;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.navbar-inverse .navbar-brand {
+    color: #ffd700; /* Emas untuk Brand */
+    font-weight: bold;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+    color: #ffffff; /* Teks menu putih */
+    transition: color 0.3s ease, background-color 0.3s ease;
+}
+
+/* Animasi Hover pada Menu */
+.navbar-inverse .navbar-nav > li > a:hover,
+.navbar-inverse .navbar-nav > li > a:focus {
+    color: #1f3a5f; /* Teks menu berubah menjadi navy blue */
+    background-color: #ffd700; /* Latar belakang berubah menjadi Emas/Oranye */
+    border-radius: 5px;
+    transform: scale(1.05); /* Sedikit efek zoom saat disentuh */
+}
+
+/* ====================================
+   JUMBOTRON (HOME) STYLE
+   ==================================== */
+#home .jumbotron {
+    background: linear-gradient(to bottom, #f7f7f7, #e0e0e0); /* Gradien lembut */
+    padding-top: 100px; 
+    padding-bottom: 100px;
+    margin-bottom: 0;
+}
+
+#home .jumbotron img {
+    width: 200px;
+    border: 7px solid #1f3a5f; /* Border tebal Navy Blue */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+#home .jumbotron img:hover {
+    transform: rotate(5deg); /* Sedikit rotasi saat hover */
+}
+
+#home h1 {
+    color: #1f3a5f;
+    font-size: 48px;
+    margin-top: 15px;
+}
+
+#home p {
+    color: #555;
+    font-style: italic;
+}
+
+/* ====================================
+   SECTION COLORS (Untuk perbedaan visual)
+   ==================================== */
+#about {
+    background-color: #ffffff;
+}
+
+#dashboard {
+    background-color: #fff8e1; /* Cream Muda */
+}
+
+#portofolio {
+    background-color: #f7f7f7;
+}
+
+/* Gaya Thumbnail Portofolio */
+#portofolio .thumbnail {
+    border: 1px solid #ddd;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+#portofolio .thumbnail:hover {
+    box-shadow: 0 5px 15px rgba(255, 170, 0, 0.5); /* Shadow oranye saat hover */
+    transform: translateY(-5px); /* Sedikit naik */
+}
+
+/* ====================================
+   CONTACT & FOOTER
+   ==================================== */
+#contact {
+    background-color: #ffffff;
+}
+
+.btn-primary {
+    background-color: #ffaa00; /* Warna tombol utama */
+    border-color: #ffaa00;
+    transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: #1f3a5f; /* Hover menjadi Navy Blue */
+    border-color: #1f3a5f;
+}
+
+footer {
+    background-color: #1f3a5f; /* Footer Navy Blue */
+    color: #e0e0e0;
+    padding: 30px 0;
+}
+
+footer a {
+    color: #ffd700; /* Emas untuk link di footer */
+    transition: color 0.3s ease;
+}
+
+footer a:hover {
+    color: #ffffff;
+}
+
+.btn-danger {
+    background-color: #ff4500;
+    border-color: #ff4500;
+}
