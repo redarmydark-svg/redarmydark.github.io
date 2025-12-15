@@ -4,13 +4,13 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Iyan Bowlehhh - Portofolio</title>
+    <title>Iyan Bowlehhh - Futuristik Portofolio</title>
 
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
 
     </head>
-  <body>
+  <body data-spy="scroll" data-target=".navbar-collapse">
    
     <nav class="navbar navbar-inverse navbar-fixed-top">
       <div class="container">
@@ -26,7 +26,7 @@
 
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
           <ul class="nav navbar-nav navbar-right">
-            <li><a href="#home"><i class="glyphicon glyphicon-home"></i> Home</a></li>
+            <li><a href="#home"><i class="glyphicon glyphicon-flash"></i> Home</a></li>
             <li><a href="#about"><i class="glyphicon glyphicon-user"></i> About</a></li>
             <li><a href="#dashboard"><i class="glyphicon glyphicon-stats"></i> Dashboard</a></li> 
             <li><a href="#portofolio"><i class="glyphicon glyphicon-picture"></i> Portofolio</a></li>
@@ -37,17 +37,24 @@
     </nav>
     <section class="home" id="home">
         <div class="jumbotron text-center">
-            <img src="img/yan.png" class="img-circle">
-            <h1>Iyan Bowlehhh</h1>
-            <p> panggil saja iyan | anjaiii mabar | kelassss abiesss</p>
+            <div class="profile-container">
+                <img src="img/yan.png" class="img-circle futuristic-border">
+            </div>
+            
+            <h1 class="main-title">Iyan Bowlehhh</h1>
+            <p class="lead-text">Panggil saja Iyan | Anjaiii Mabar | Kelassss Abiesss</p>
+            
+            <div class="status-badge">
+                <i class="glyphicon glyphicon-ok-circle"></i> Online and Ready to Code
+            </div>
         </div>
     </section>
     <section class="about" id="about">
         <div class="container">
             <div class="row">
                 <div class="col-sm-12">
-                    <h2 class="text-center">About</h2>
-                    <hr>
+                    <h2 class="text-center section-title">About Me</h2>
+                    <hr class="section-hr">
                     <p class="text-center lead" style="margin-bottom: 50px;">
                         Berikut adalah data diri singkat dan hal-hal yang saya sukai.
                     </p>
@@ -56,34 +63,26 @@
 
             <div class="row">
                 <div class="col-md-6">
-                    <ul class="list-group">
+                    <ul class="list-group list-futuristic">
                         <li class="list-group-item">
-                            <h4 class="list-group-item-heading" style="color: #1f3a5f; font-weight: bold;">
-                                <i class="glyphicon glyphicon-book"></i> Status
-                            </h4>
+                            <h4 class="list-group-item-heading"><i class="glyphicon glyphicon-book"></i> Status</h4>
                             <p class="list-group-item-text">Mahasiswa Sistem Informasi UPJB</p>
                         </li>
                          <li class="list-group-item">
-                            <h4 class="list-group-item-heading" style="color: #1f3a5f; font-weight: bold;">
-                                <i class="glyphicon glyphicon-globe"></i> Keahlian
-                            </h4>
+                            <h4 class="list-group-item-heading"><i class="glyphicon glyphicon-globe"></i> Keahlian</h4>
                             <p class="list-group-item-text">Web Development Dasar (HTML, CSS, Bootstrap)</p>
                         </li>
                     </ul>
                 </div>
 
                 <div class="col-md-6">
-                    <ul class="list-group">
+                    <ul class="list-group list-futuristic">
                          <li class="list-group-item">
-                            <h4 class="list-group-item-heading" style="color: #1f3a5f; font-weight: bold;">
-                                <i class="glyphicon glyphicon-console"></i> Hobi
-                            </h4>
+                            <h4 class="list-group-item-heading"><i class="glyphicon glyphicon-console"></i> Hobi</h4>
                             <p class="list-group-item-text">Bermain game, terutama Free Fire (epep)</p>
                         </li>
                         <li class="list-group-item">
-                            <h4 class="list-group-item-heading" style="color: #1f3a5f; font-weight: bold;">
-                                <i class="glyphicon glyphicon-heart"></i> Tim Favorit
-                            </h4>
+                            <h4 class="list-group-item-heading"><i class="glyphicon glyphicon-heart"></i> Tim Favorit</h4>
                             <p class="list-group-item-text">Manchester United (GGMU)</p>
                         </li>
                     </ul>
@@ -95,75 +94,73 @@
         <div class="container">
             <div class="row">
                 <div class="col-sm-12 text-center">
-                    <h2>Dashboard / Statistik</h2>
-                    <hr>
-                    <p>Ini adalah contoh seksi Dashboard untuk menampilkan statistik atau informasi penting lainnya.</p>
+                    <h2 class="section-title">Dashboard / Statistik</h2>
+                    <hr class="section-hr">
+                    <p>Ini adalah contoh seksi Dashboard dan konten media pilihan.</p>
                 </div>
             </div>
             
-            <div class="row" style="margin-top: 50px;">
+            <div class="row youtube-section">
                 <div class="col-sm-12 text-center">
                     <h3>Video Pilihan Utama</h3>
-                    <p class="text-muted">Tautan ke video yang sangat direkomendasikan.</p>
-                    <hr style="width: 50px; border-top: 2px solid #ffaa00;">
+                    <p class="text-muted">Langsung tonton video rekomendasi dari Bang Iyan.</p>
                 </div>
             </div>
             
             <div class="row">
-                <div class="col-md-6 col-md-offset-3">
-                    <div class="panel panel-primary">
-                        <div class="panel-heading" style="background-color: #1f3a5f; color: white;">
-                            <h3 class="panel-title"><i class="glyphicon glyphicon-film"></i> Tautan Video Pilihan</h3>
-                        </div>
-                        <div class="list-group">
-                            <a href="[MASUKKAN LINK YOUTUBE ANDA DI SINI]" target="_blank" class="list-group-item">
-                                <h4 class="list-group-item-heading"><i class="glyphicon glyphicon-play-circle"></i> Tonton Video Terbaru!</h4>
-                                <p class="list-group-item-text text-muted">Klik di sini untuk langsung ke YouTube.</p>
-                            </a>
-                        </div>
+                <div class="col-md-8 col-md-offset-2">
+                    <div class="embed-responsive embed-responsive-16by9 video-futuristic-container">
+                        <iframe class="embed-responsive-item" 
+                                src="https://www.youtube.com/embed/yAzYv4knLh4?si=zx67tg5v7B881rGr" 
+                                frameborder="0" 
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                                allowfullscreen>
+                        </iframe>
+                    </div>
+                    <div class="text-center video-caption">
+                        <p>Video ini adalah konten pilihan Iyan Bowlehhh. Selamat menonton!</p>
                     </div>
                 </div>
             </div>
             </div>
     </section>
-    ```
     <section class="portofolio" id="portofolio">
         <div class="container">
             <div class="row">
                 <div class="col-sm-12 text-center">
-                    <h2>Portofolio</h2>
-                    <hr>
+                    <h2 class="section-title">Portofolio</h2>
+                    <hr class="section-hr">
                 </div>
             </div>
 
-            <div class="row">
+            <div class="row portfolio-grid">
                 <div class="col-sm-4">
-                    <a href="" class="thumbnail">
+                    <a href="" class="thumbnail futuristic-shadow">
                         <img src="img/portfolio/real.png">
                     </a>
                 </div>
                 <div class="col-sm-4">
-                    <a href="" class="thumbnail">
+                    <a href="" class="thumbnail futuristic-shadow">
                         <img src="img/portfolio/real.png">
                     </a>
                 </div>
                 <div class="col-sm-4">
-                    <a href="" class="thumbnail">
+                    <a href="" class="thumbnail futuristic-shadow">
                         <img src="img/portfolio/real.png">
                     </a>
                 </div>
                 <div class="col-sm-4">
-                    <a href="" class="thumbnail">
+                    <a href="" class="thumbnail futuristic-shadow">
                         <img src="img/portfolio/king.jpeg">
                     </a>
                 </div>
                 <div class="col-sm-4">
-                    <a href="" class="thumbnail">
+                    <a href="" class="thumbnail futuristic-shadow">
                         <img src="img/portfolio/king.jpeg">
                     </a>
                 </div>
                 <div class="col-sm-4">
-                    <a href="" class="thumbnail">
+                    <a href="" class="thumbnail futuristic-shadow">
                         <img src="img/portfolio/king.jpeg">
                     </a>
                 </div>
@@ -174,14 +171,14 @@
         <div class="container">
             <div class="row">
                 <div class="col-sm-12">
-                    <h2 class="text-center">Contact</h2>
-                    <hr>
+                    <h2 class="text-center section-title">Contact</h2>
+                    <hr class="section-hr">
                 </div>
             </div>
             
             <div class="row">
                 <div class="col-sm-8 col-sm-offset-2">
-                    <form>
+                    <form class="futuristic-form">
                         <div class="form-group">
                             <label for="nama">Nama</label>
                             <input type="text" id="nama" class="form-control" placeholder="Masukkan nama">
@@ -206,22 +203,22 @@
                             <label for="pesan">Pesan</label>
                             <textarea class="form-control" rows="10" placeholder="Masukkan pesan"></textarea>
                         </div>
-                        <button type="submit" class="btn btn-primary">Kirim Pesan</button>
+                        <button type="submit" class="btn btn-primary futuristic-button">Kirim Pesan</button>
                     </form>
                 </div>
             </div>
         </div>
     </section>
-    <footer>
+    <footer class="futuristic-footer">
         <div class="container text-center">
             <div class="row">
                 <div class="col-sm-12">
-                    <p>&copy; 2025. Built with <i class="glyphicon glyphicon-heart"></i> by <a href="https://www.instagram.com/iyanpinoo?igsh=ZXJ3YWhjMzVyem5v">Iyan Bowlehhh</a>.</p>
+                    <p>&copy; 2025. Code System Active. Built with <i class="glyphicon glyphicon-heart"></i> by <a href="https://www.instagram.com/iyanpinoo?igsh=ZXJ3YWhjMzVyem5v">Iyan Bowlehhh</a>.</p>
                 </div>
             </div>
             <div class="row">
                 <div class="col-sm-12">
-                    <a href="https://www.instagram.com/iyanpinoo?igsh=ZXJ3YWhjMzVyem5v" class="btn btn-danger"><i class="glyphicon glyphicon-play"></i> instgram</a>
+                    <a href="https://www.instagram.com/iyanpinoo?igsh=ZXJ3YWhjMzVyem5v" class="btn btn-danger futuristic-button"><i class="glyphicon glyphicon-play"></i> INSTAGRAM</a>
                 </div>
             </div>
         </div>
